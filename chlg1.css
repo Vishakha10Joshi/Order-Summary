@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    background-color: rgb(148, 181, 212);
+    background-image: url(images/pattern-background-desktop.svg);
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 320px;
+    height: 520px;
+    background-color: white;
+    margin: 60px auto;
+    border-radius: 20px;
+}
+.img img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.heading{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: rgb(39, 38, 38);
+    margin-top: 30px;
+}
+p{
+    width: 80%;
+    margin: 20px auto;
+    color: rgb(121, 116, 116);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+.icon-sec{
+    background-color: rgb(246, 253, 253);
+    margin: 10px 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.icon{
+    width: 16%;
+    margin:0 10px;
+    float: left;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin: 0 10px;
+}
+span{
+    color: gray;
+    margin-top: 10px;
+    float: left;
+}
+.link{
+    text-decoration: none;
+    color: rgb(65, 104, 177);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    /* margin-left: 150px;
+    margin-top: 30px; */
+    position: relative;
+    left: 40px;
+    display: inline-block;
+}
+.btn {
+    background: #9266F1;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 12px 50px;
+    border: solid #7865D3 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    margin:10px 40px;
+ }
+ 
+ .btn:hover {
+    border: solid #337FED 0;
+    background: #7D52BD;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 2px 8px 20px 0 #B2B0B5;
+ }
+ .cancel{
+     border-style: none;
+     margin: 20px 100px ;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: rgb(39, 38, 38);
+     font-weight: bold;
+     cursor: pointer;
+     background-color: white;
+ }
